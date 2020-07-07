@@ -5,45 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css" />
+    <script src="https://use.fontawesome.com/16505b8c82.js"></script>
     <title>cda</title>
 </head>
 
 <body>
     <div class="parent-side">
+        <!----- SIDE BAR -------->
         <div class="side-bar">
             <img src="images/logo.svg" alt="logo" class="main-logo">
             <div class="title-container">
                 <h1 class="title">HOMEPAGE</h1>
                 <div class="line"></div>
             </div>
-
         </div>
-        <div class="main"></div>
+
+        <!------------------MAIN SIDE IMAGE------------>
         <div class="main-side">
-            <ul class="nav-link">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-            <div class="car-layout">
-                <div class="car-logo"><img src="images/car.png" alt="car" class="car-pic"></div>
-                <div class="text">
-                <h1 class="main-line">BEST SOLUTION FOR<br><span>YOUR CAR PROBLEMS.</span></h1>
-                <p class="sub-line">DIAGNOSE YOUR CAR MAKING YOUR LIFE BETTER</p>
-                <a class="start-button">Get Started</a>
-            </div>
-            </div>
-            <div class="bottom-bar">
-                <div class="mechanic-side">
-                    <img src="images/mechanic.svg">
-                    <h1>WANT A MECHANIC?</h1>
-                    <p>Find nearest mechanic through map and<br>contact him right now!</p>
+            <!--------CHILD DIV-->
+            <div class="main-child">
+                <!------------NAVIGATION--------------->
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <!------------MID LAYOUT--------------->
+                <div class="car-layout">
+                    <div class="car-logo"><img src="images/car.png" alt="car" class="car-pic"></div>
+                    <div class="text">
+                        <h1 class="main-line">BEST SOLUTION FOR<br><span>YOUR CAR PROBLEMS.</span></h1>
+                        <p class="sub-line" style="text-align: right;margin-right: 20px;">DIAGNOSE YOUR CAR MAKING YOUR
+                            LIFE
+                            BETTER</p>
+                        <div class="button">
+                            <a class="start-button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------BOTTOM BAR--------------->
+                <div class="bottom-bar">
+                    <div class="mechanic-side">
+                        <img src="images/mechanic.svg">
+                    </div>
+                    <div class="text-sec">
+                        <h1>WANT A MECHANIC?</h1>
+                        <p>Find nearest mechanic through map and<br>contact him right now!</p>
+                    </div>
+                    <div class="bottom-button">
+                        <a class="mech-button"><i class="fa fa-chevron-right fa-lg"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
+    </div>
 </body>
 
 </html>
