@@ -150,9 +150,9 @@ body{
     display: flex;
     height: auto;
     align-items: center;
-    position: relative;
-    top: 46%;
-    left: 3%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 3%;
 }
 
 .bottom-bar h1{
