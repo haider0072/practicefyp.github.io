@@ -181,3 +181,65 @@ body{
     color: #2EB26F;
     
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:414px){
+    .side-bar{
+        display: none;
+    }
+    .car-layout{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+    }
+    .car-pic{
+        width: 400px;
+        height: auto;
+    }
+    .main-side{
+        margin-left: 0;
+    }
+    .main-line{
+        font-size: 54px;
+    }
+    .sub-line{
+        text-align: left;
+        font-size: 16px;
+    }
+    .button{
+    margin-right: 1.7rem;
+    margin-top: 3.5rem;
+}
+    .text{
+        left: 3%;
+        top: 100%;
+    }
+    .bottom-bar{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        top: 90%;
+    }
+    .text-sec{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    .car-pic{
+        width: 350px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .car-pic{
+        width: 320px;
+        height: auto;
+    }
+
+}
